@@ -37,13 +37,6 @@ function setup() {
 
 function draw() {
   background("blue");  
-  stick1.display();
-  stick2.display();
-  stick3.display();
-  stick4.display();
-  stick5.display();
-  stick6.display();
-  stick7.display();
   text("egyption pyramid", 250, 100);
   if(keyDown(LEFT_ARROW)){
   text.scale=text.scale+0.05;
